@@ -17,7 +17,7 @@ setup(
     ],
     url='https://github.com/fabeschan/altf4',
     author='Fabian Chan',
-    author_email='fabianc@stanford.edu',
+    author_email='fabeschan@gmail.com',
     license='MIT',
     packages=['altf4'],
     install_requires=[
