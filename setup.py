@@ -4,7 +4,8 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 
-setup(name='altf4',
+setup(
+    name='altf4',
     version='0.0.1',
     description='Automatic Loadtesting Framework 4',
     long_description=readme(),
@@ -22,4 +23,7 @@ setup(name='altf4',
     install_requires=[
         'gevent',
     ],
-    zip_safe=False)
+    test_suite='nose.collector',
+    tests_require=['nose'],
+    zip_safe=False
+)
