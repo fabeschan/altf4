@@ -15,7 +15,7 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Topic :: Software Development :: Testing :: Traffic Generation',
     ],
-    url='http://github.com/fabeschan/altf4',
+    url='https://github.com/fabeschan/altf4',
     author='Fabian Chan',
     author_email='fabianc@stanford.edu',
     license='MIT',
